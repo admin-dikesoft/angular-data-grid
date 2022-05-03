@@ -1,0 +1,64 @@
+{
+  "name": "@dikesoft/angular-data-grid",
+  "version": "0.0.1",
+  "description": "DikeGrid - An Angular Data Grid for Angular developers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/admin-dikesoft/angular-data-grid.git"
+
+  },
+  "author": {
+    "name": "Dikesoft"
+  },
+  "homepage": "https://www.dikesoft.com/dike-grid",
+  "keywords": [
+    "DikeGrid",
+    "dike-grid",
+    "angular",
+    "material",
+    "angular material",
+    "angular-material",
+    "angular-component",
+    "grid",
+    "table",
+    "angular data grid",
+    "data grid",
+    "data-grid",
+    "datagrid",
+    "data table",
+    "data-table",
+    "datatable"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "exports": {
+    ".": {
+      "sass": "./_index.scss"
+    },
+    "./prebuilt-themes/indigo-pink.css": {
+      "style": "./prebuilt-themes/indigo-pink.css"
+    },
+    "./prebuilt-themes/deeppurple-amber.css": {
+      "style": "./prebuilt-themes/deeppurple-amber.css"
+    },
+    "./prebuilt-themes/pink-bluegrey.css": {
+      "style": "./prebuilt-themes/pink-bluegrey.css"
+    },
+    "./prebuilt-themes/purple-green.css": {
+      "style": "./prebuilt-themes/purple-green.css"
+    },
+    "./prebuilt-themes/*": {
+      "style": "./prebuilt-themes/*.css"
+    }
+  },
+  "peerDependencies": {
+    "@angular/common": "^13.0.0",
+    "@angular/core": "^13.0.0",
+    "@angular/forms": "^13.0.0",
+    "@angular/cdk": "^13.3.2",
+    "@angular/material": "^13.3.2",
+    "rxjs": "^6.5.3 || ^7.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
